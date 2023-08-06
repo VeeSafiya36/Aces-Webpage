@@ -1,0 +1,151 @@
+/* centered all of the headings using a center class*/
+
+.center {
+    text-align: center;
+}
+
+/* styled heading*/
+h1 {
+    text-shadow: 1px 1px 2px goldenrod;
+}
+
+/* set the display, margins, border, and box-shadow settings for pic id*/
+#pic1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,.5);
+    
+}
+
+#pic2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,.5);
+    
+}
+
+/* set the margin, background color, and text color for body*/
+body {
+    margin: 1rem 5rem;
+    background-color: rgb(235, 235, 170);
+    color: black;
+}
+
+/* centered text and changed font-size within the form*/
+form {
+    text-align: center;
+    font-size: 20px;
+    border-style:solid;
+}
+
+/* set margins and padding for the inputs in the form*/
+Input {
+
+    margin:7px;
+    padding:2px;
+
+    }
+
+ /* set the footer text to align left uisng a footer id*/   
+#footer {
+    text-align: left;
+}
+
+/* created class to center table- set margins, borders, and width using centerT class*/
+.centerT {
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+/* created class for div housing the list element- centered text*/
+.listContainer {
+    text-align: center;
+}
+
+/* created class for list- set display and text-align settings*/
+.myList {
+    display: inline-block;
+    text-align: left;
+}
+
+/* set the padding, text-alignment, and border settings for table header and table data*/
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black;
+    
+}
+
+/* created class for div holding one of the images- set float, width, and padding settings*/
+  .column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+  }
+
+  /* created class for div holding pictures- set display to flex*/
+  .picContainer {
+    display: flex;
+  }
+
+  /* set color, margin, and font settings*/
+  figcaption {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    padding: 5px;
+ }
+
+ /* set display, margin, and text-alignment settings for figure element*/
+ figure {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+/* set alignment setting for figure image*/
+figure img {
+    vertical-align: top;
+}
+
+
+/* styled anchor links*/
+a:link {
+    color: black;
+  }
+
+a:hover {
+    color: red;
+  }
+
+ /* set responsive design settings*/
+ @media only screen and (max-width:500px){
+    body {
+        margin: 1rem;
+    }
+    p, li {
+        font-size: 16px;
+    }
+    .container{
+        width: 230px;
+    }
+    .column{
+        width:230px;
+    }
+    }
+
+    @media only screen and (max-width:992px) {
+        #pic1 {
+           max-width: 100%;
+           max-height: 100%
+        }
+    }
